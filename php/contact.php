@@ -39,7 +39,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@example.net";
-$address = "example@example.net";
+$address = "servicios@clubbodyshop.com";
 
 
 // Configuration option.
@@ -47,16 +47,16 @@ $address = "example@example.net";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'You have been contacted by ' . $name . '.';
+$e_subject = 'Ha sido contactado por ' . $name . '.';
 
 
 // Configuration option.
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $name. Their additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "Ha sido contactado por $name. Su mensaje adicional es el siguiente." . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
-$e_reply = "You can contact $name via email, $email";
+$e_reply = "Puedes contactar $name via email, $email";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
@@ -72,8 +72,8 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
-	echo "<h5 class='text-success'>Email Sent Successfully.</h5>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
+	echo "<h5 class='text-success'>Correo electrónico enviado correctamente.</h5>";
+	echo "<p>Gracias por contactarnos <strong>$name</strong>,Su mensaje ha sido enviado.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 

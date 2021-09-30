@@ -56,6 +56,32 @@ p {
   line-height: 2;
 }
 
+
+.button-container{
+display:inline-block;
+position:relative;
+}
+
+.button-container a{
+position: absolute;
+bottom:1em;
+left:1em;
+background-color:#00a9dc;
+border-radius:1.5em;
+color:white;
+text-transform:uppercase;
+padding:1em 1.2em;
+}
+
+.button-container a:hover{
+background-color:#ffffff;
+border-radius:1.5em;
+color:#00a9dc;
+
+}
+
+
+
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -541,8 +567,9 @@ hr {
 }
 
 .services-icon i {
-  font-size: 36px;
+  font-size: 45px;
   color: #00a9dc;
+  margin-right: 20px;
 }
 
 .services-box h5 {
