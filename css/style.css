@@ -241,8 +241,19 @@ hr {
 .btn-outline {
   color: #00a9dc;
   border: 1px solid #00a9dc;
-  border-radius: 0px;
+  border-radius:1.1em;
+  text-transform:uppercase;
+  padding:1em 1.1em;
+  margin: 0.1em;
 }
+
+.services-btn i {
+  font-size: 18px;
+  color: #00a9dc;
+  margin-right: 5px;
+}
+
+
 
 .btn-outline:hover,
 .btn-outline:focus,
@@ -252,11 +263,11 @@ hr {
 .btn-outline:active,
 .btn-outline:focus,
 .btn-outline:hover,
-.open > .dropdown-toggle .btn-outline {
+.open > .dropdown-toggle .btn-outline  {
   outline: none;
-  border: 1px solid #00a9dc;
-  background-color: #00a9dc;
-  color: #ffffff;
+  border: 1px solid #252525;
+  background-color: #ffffff;
+  color: #00a9dc;
 }
 
 .navbar-custom {
@@ -892,7 +903,7 @@ font-weight: 900;
   height: 42px;
   border: 1px solid #ffffff;
   line-height: 40px;
-  font-size: 28px;
+  font-size: 23px;
   transition: all 0.5s;
   margin-right: 10px;
 }
