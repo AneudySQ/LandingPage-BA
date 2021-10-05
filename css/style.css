@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;0,900;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,900&display=swap');
 body {
   font-family: "Montserrat", sans-serif;
   color: #252525 !important;
@@ -15,8 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
-}
+font-family: 'Montserrat', sans-serif;}
 
 .btn,
 .btn:focus,
@@ -462,10 +460,11 @@ caption {
 .home-title {
   font-size: 70px;
   color: #ffffff;
-  max-width: 950px;
+  max-width: 999px;
   margin: 0 auto;
-  font-weight: 900;
-  text-transform: uppercase;
+  font-weight:  900;
+  text-transform: uppercase ;
+  font-style:  italic ;
 
 }
 
