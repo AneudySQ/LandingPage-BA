@@ -1,32 +1,7 @@
-/* Template Name: Readxon
-   Author: Themesdesign
-   Version: 1.0.0
-   Created: Jan 2019
-   File Description: Main Css file of the template
-*/
-/****************************************\
 
-01.general
-02.helper
-03.components
-04.menu
-05.home
-06.services
-07.features
-08.video
-09.client
-10.pricing
-11.cta
-12.faq
-13.blog
-14.contact
-15.footer
-16.responsive
-
-*****************************************/
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600|Rubik:400,500");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,900&display=swap');
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #252525 !important;
   font-size: 15px;
 }
@@ -175,7 +150,7 @@ hr {
 }
 
 .text-muted {
-  color: #868e96 !important;
+  color: #000000 !important;
 }
 
 .btn {

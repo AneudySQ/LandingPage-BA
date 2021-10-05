@@ -54,7 +54,7 @@ $e_subject = 'Ha sido contactado por ' . $name . '.';
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "Ha sido contactado por $name. Su mensaje adicional es el siguiente." . PHP_EOL . PHP_EOL;
+$e_body = "Ha sido contactado por $name. El mensaje es el siguiente" . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
 $e_reply = "Puedes contactar $name via email, $email";
 
@@ -72,8 +72,8 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
-	echo "<h5 class='text-success'>Correo electrónico enviado correctamente.</h5>";
-	echo "<p>Gracias por contactarnos <strong>$name</strong>,Su mensaje ha sido enviado.</p>";
+	echo "<h5 class='text-success'>Email Sent Successfully.</h5>";
+	echo "<p>Thank you <strong>$name</strong>,  El correo electrónico se ha enviado correctamente, gracias por escribirnos.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 

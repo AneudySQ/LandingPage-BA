@@ -278,6 +278,7 @@ caption {
   text-transform:uppercase;
   padding:1em 1.1em;
   margin: 0.1em;
+  cursor: pointer;
 }
 .btn-ver-mas {
   color: #00a9dc;
