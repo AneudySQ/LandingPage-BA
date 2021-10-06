@@ -619,8 +619,8 @@ caption {
   box-shadow: none !important;
 }
 
-.services-icon i {
-  font-size: 40px;
+.services-icon  {
+  font-size: 35px;
   color: #00a9dc;
   margin-right: 15px;
   text-align: center;
