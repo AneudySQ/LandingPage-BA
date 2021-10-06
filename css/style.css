@@ -306,7 +306,7 @@ caption {
 .btn-outline:hover,
 .open > .dropdown-toggle .btn-outline  {
   outline: none;
-  border: 1px solid #252525;
+  border: 1px solid #ffffff;
   background-color: #ffffff;
   color: #00a9dc;
 }

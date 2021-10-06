@@ -72,3 +72,5 @@ $(".element").each(function() {
 
 // video
 $(".player").mb_YTPlayer();
+
+
