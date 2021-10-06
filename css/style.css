@@ -1,45 +1,20 @@
-/* Template Name: Readxon
-   Author: Themesdesign
-   Version: 1.0.0
-   Created: Jan 2019
-   File Description: Main Css file of the template
-*/
-/****************************************\
 
-01.general
-02.helper
-03.components
-04.menu
-05.home
-06.services
-07.features
-08.video
-09.client
-10.pricing
-11.cta
-12.faq
-13.blog
-14.contact
-15.footer
-16.responsive
-
-*****************************************/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;0,900;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,900&display=swap');
 body {
   font-family: "Montserrat", sans-serif;
   color: #252525 !important;
   font-size: 15px;
 }
-
+.bg-azul{
+  background-color: #3fa3c2;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
-}
+font-family: 'Montserrat', sans-serif;}
 
 .btn,
 .btn:focus,
@@ -302,6 +277,15 @@ caption {
   text-transform:uppercase;
   padding:1em 1.1em;
   margin: 0.1em;
+  cursor: pointer;
+}
+.btn-ver-mas {
+  color: #00a9dc;
+  border:none;
+  border-radius:1.1em;
+  text-transform:uppercase;
+  padding:1em 1.1em;
+  margin: 0.1em;
 }
 
 .services-btn i {
@@ -474,12 +458,13 @@ caption {
 }
 
 .home-title {
-  font-size: 70px;
+  font-size: 60px;
   color: #ffffff;
-  max-width: 950px;
+  max-width: 999px;
   margin: 0 auto;
-  font-weight: 900;
-  text-transform: uppercase;
+  font-weight:  900;
+  text-transform: uppercase ;
+  font-style:  italic ;
 
 }
 
@@ -635,9 +620,12 @@ caption {
 }
 
 .services-icon i {
-  font-size: 45px;
+  font-size: 40px;
   color: #00a9dc;
-  margin-right: 20px;
+  margin-right: 15px;
+  text-align: center;
+  text-align: center;
+
 }
 
 .services-box h5 {
@@ -776,8 +764,8 @@ font-weight: 900;
 }
 
 .pricing-box {
-  box-shadow: 0px 1px 10px 0px rgba(205, 205, 205, 0.33);
-  padding: 36px 30px 36px 30px;
+  box-shadow: 0px 1px 15px 0px rgba(205, 205, 205, 0.479);
+  padding: 26px 25px 26px 25px;
 }
 
 .pricing-box h3 {
@@ -932,7 +920,7 @@ font-weight: 900;
 }
 
 .bg-footer {
-  padding: 40px 0px 10px 0px;
+  padding: 40px 0px 40px 0px;
   background: #000000;
 }
 
@@ -1036,4 +1024,3 @@ font-weight: 900;
     padding-left: 0px;
   }
 }
-/*# sourceMappingURL=style.css.map */
