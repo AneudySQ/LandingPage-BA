@@ -14,18 +14,18 @@ $email    = $_POST['email'];
 $comments = $_POST['comments'];
 
 if(trim($name) == '') {
-	echo '<div class="error_message">You must enter your name.</div>';
+	echo '<div class="error_message">Debes ingresar tu nombre.</div>';
 	exit();
 } else if(trim($email) == '') {
-	echo '<div class="error_message">Please enter a valid email address.</div>';
+	echo '<div class="error_message">Por favor, introduce una dirección de correo electrónico válida.</div>';
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">You have entered an invalid e-mail address. Please try again.</div>';
+	echo '<div class="error_message">Has introducido una dirección de correo electrónico no válida.</div>';
 	exit();
 }
 
 if(trim($comments) == '') {
-	echo '<div class="error_message">Please enter your message.</div>';
+	echo '<div class="error_message">Por favor ingrese su mensaje.</div>';
 	exit();
 }
 
@@ -39,7 +39,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@example.net";
-$address = "servicios@clubbodyshop.com";
+$address = "aneudysq@gmail.com";
 
 
 // Configuration option.
