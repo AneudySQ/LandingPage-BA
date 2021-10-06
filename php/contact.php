@@ -72,8 +72,8 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
-	echo "<h5 class='text-success'>Email Sent Successfully.</h5>";
-	echo "<p>Thank you <strong>$name</strong>,  El correo electrónico se ha enviado correctamente, gracias por escribirnos.</p>";
+	echo "<h5 class='text-success'>Mensaje enviado...</h5>";
+	echo "<p>¡Muchas gracias!<strong>$name</strong>,  El correo electrónico se ha enviado correctamente.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 
