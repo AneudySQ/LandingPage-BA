@@ -1,7 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600|Rubik:400,500");
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #252525 !important;
   font-size: 15px;
 }
@@ -150,7 +149,7 @@ hr {
 }
 
 .text-muted {
-  color: #000000 !important;
+  color: #252525 !important;
 }
 
 .btn {
