@@ -10,7 +10,7 @@ function isEmail($email) {
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
-$telefono    = $_POST['telefono'];
+$tel    = $_POST['tel'];
 $email    = $_POST['email'];
 $comments = $_POST['comments'];
 
@@ -35,7 +35,7 @@ if(get_magic_quotes_gpc()) {
 	$comments = stripslashes($comments);
 }
 
-/* if(trim($tel) == '') {
+ if(trim($tel) == '') {
 	echo '<div class="error_message">Por favor ingrese su teléfono.</div>';
 	exit();
 }
@@ -43,7 +43,7 @@ if(get_magic_quotes_gpc()) {
 if(get_magic_quotes_gpc()) {
 	$tel = stripslashes($tel);
 }
- */
+
 
 // Configuration option.
 // Enter the email address that you want to emails to be sent to.
@@ -58,7 +58,7 @@ $address = "aneudysq@gmail.com";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'Ha sido contactado por ' . $name . '.';
+$e_subject = 'Beneficio Resort Punta Cana, interesado:' . $name . '.';
 
 
 // Configuration option.
