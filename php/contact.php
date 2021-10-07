@@ -10,7 +10,7 @@ function isEmail($email) {
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
-$tel    = $_POST['tel'];
+$telefono    = $_POST['telefono'];
 $email    = $_POST['email'];
 $comments = $_POST['comments'];
 
@@ -67,7 +67,7 @@ $e_subject = 'Ha sido contactado por ' . $name . '.';
 
 $e_body = "Ha sido contactado por $name. El mensaje es el siguiente" . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
-$e_reply = "Puedes contactar $name via email, $email telefono $tel";
+$e_reply = "Puedes contactar $name via email, $email telefono $telefono";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
@@ -84,7 +84,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h5 class='text-success'>Mensaje enviado...</h5>";
-	echo "<p>¡Muchas gracias!<br> <strong><h3>$name</h3></strong>, <br>  El correo electrónico se ha enviado correctamente.</p>";
+	echo "<p>¡Muchas gracias!<br> <strong><h3>$name</h3></strong> <br>  El correo electrónico se ha enviado correctamente.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 
