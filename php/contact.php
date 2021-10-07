@@ -35,7 +35,7 @@ if(get_magic_quotes_gpc()) {
 	$comments = stripslashes($comments);
 }
 
- if(trim($tel) == '') {
+/*  if(trim($tel) == '') {
 	echo '<div class="error_message">Por favor ingrese su teléfono.</div>';
 	exit();
 }
@@ -43,7 +43,9 @@ if(get_magic_quotes_gpc()) {
 if(get_magic_quotes_gpc()) {
 	$tel = stripslashes($tel);
 }
+ */
 
+ 
 
 // Configuration option.
 // Enter the email address that you want to emails to be sent to.
