@@ -17,6 +17,7 @@ $comments = $_POST['comments'];
 if(trim($name) == '') {
 	echo '<div class="error_message">Debes ingresar tu nombre y apellido.</div>';
 	exit();
+
 } else if(trim($email) == '') {
 	echo '<div class="error_message">Por favor, introduce una dirección de correo electrónico válida.</div>';
 	exit();
@@ -25,15 +26,6 @@ if(trim($name) == '') {
 	exit();
 }
 
-if(trim($tel) == '') {
-	echo '<div class="error_message">Por favor ingrese su teléfono.</div>';
-	exit();
-}
-if(get_magic_quotes_gpc()) {
-	$tel = stripslashes($tel);
-}
-
-
 if(trim($comments) == '') {
 	echo '<div class="error_message">Por favor ingrese su mensaje.</div>';
 	exit();
@@ -41,6 +33,15 @@ if(trim($comments) == '') {
 
 if(get_magic_quotes_gpc()) {
 	$comments = stripslashes($comments);
+}
+
+if(trim($tel) == '') {
+	echo '<div class="error_message">Por favor ingrese su mensaje.</div>';
+	exit();
+}
+
+if(get_magic_quotes_gpc()) {
+	$tel = stripslashes($tel);
 }
 
 
