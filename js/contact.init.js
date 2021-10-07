@@ -11,6 +11,7 @@ $('#contact-form').submit(function() {
 
         $.post(action, {
                 name: $('#name').val(),
+                telefono: $('#telefono').val(),
                 email: $('#email').val(),
                 comments: $('#comments').val(),
             },

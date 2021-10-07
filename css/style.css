@@ -132,6 +132,7 @@ thead{
 tbody{
   color: #FFFFFF;
   text-align: center;
+  padding: auto;
 
 }
 
@@ -139,6 +140,7 @@ th{
   font-style:italic;
   text-align: center;
   font-size: 1.2em;
+
 }
 
 tr td span{
@@ -152,7 +154,7 @@ hr {
 }
 
 caption {
-  text-align: right;
+  text-align: center;
 }
 
 .f-12 {

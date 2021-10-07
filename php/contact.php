@@ -10,12 +10,14 @@ function isEmail($email) {
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
+$tel    = $_POST['tel'];
 $email    = $_POST['email'];
 $comments = $_POST['comments'];
 
 if(trim($name) == '') {
-	echo '<div class="error_message">Debes ingresar tu nombre.</div>';
+	echo '<div class="error_message">Debes ingresar tu nombre y apellido.</div>';
 	exit();
+
 } else if(trim($email) == '') {
 	echo '<div class="error_message">Por favor, introduce una dirección de correo electrónico válida.</div>';
 	exit();
@@ -33,13 +35,22 @@ if(get_magic_quotes_gpc()) {
 	$comments = stripslashes($comments);
 }
 
+ if(trim($tel) == '') {
+	echo '<div class="error_message">Por favor ingrese su teléfono.</div>';
+	exit();
+}
+
+if(get_magic_quotes_gpc()) {
+	$tel = stripslashes($tel);
+}
+
 
 // Configuration option.
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@example.net";
-$address = "servicios@clubbodyshop.com";
+$address = "aneudysq@gmail.com";
 
 
 // Configuration option.
@@ -47,7 +58,7 @@ $address = "servicios@clubbodyshop.com";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'Ha sido contactado por ' . $name . '.';
+$e_subject = 'Beneficio Resort Punta Cana, interesado:' . $name . '.';
 
 
 // Configuration option.
@@ -56,7 +67,7 @@ $e_subject = 'Ha sido contactado por ' . $name . '.';
 
 $e_body = "Ha sido contactado por $name. El mensaje es el siguiente" . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
-$e_reply = "Puedes contactar $name via email, $email";
+$e_reply = "Puedes contactar $name via email, $email telefono $telefono";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
@@ -73,7 +84,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h5 class='text-success'>Mensaje enviado...</h5>";
-	echo "<p>¡Muchas gracias!<strong>$name</strong>,  El correo electrónico se ha enviado correctamente.</p>";
+	echo "<p>¡Muchas gracias!<br> <strong><h3>$name</h3></strong> <br>  El correo electrónico se ha enviado correctamente.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 
