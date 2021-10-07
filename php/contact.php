@@ -10,7 +10,7 @@ function isEmail($email) {
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
-$tel    = $_POST['email'];
+$tel    = $_POST['tel'];
 $email    = $_POST['email'];
 $comments = $_POST['comments'];
 
@@ -25,12 +25,13 @@ if(trim($name) == '') {
 	exit();
 }
 
-if(trim($comments) == '') {
-	echo '<div class="error_message">Por favor ingrese su mensaje.</div>';
-	exit();
-}
 if(trim($tel) == '') {
 	echo '<div class="error_message">Por favor ingrese su teléfono.</div>';
+	exit();
+}
+
+if(trim($comments) == '') {
+	echo '<div class="error_message">Por favor ingrese su mensaje.</div>';
 	exit();
 }
 
@@ -44,7 +45,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@example.net";
-$address = "servicios@clubbodyshop.com";
+$address = "aneudysq@gmail.com";
 
 
 // Configuration option.
