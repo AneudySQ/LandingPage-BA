@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?c3oh9q');
-  src:  url('fonts/icomoon.eot?c3oh9q#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?c3oh9q') format('truetype'),
-    url('fonts/icomoon.woff?c3oh9q') format('woff'),
-    url('fonts/icomoon.svg?c3oh9q#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?cgiiof');
+  src:  url('fonts/icomoon.eot?cgiiof#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cgiiof') format('truetype'),
+    url('fonts/icomoon.woff?cgiiof') format('woff'),
+    url('fonts/icomoon.svg?cgiiof#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,75 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Pilatex-01 .path1:before {
+  content: "\e932";
+  color: rgb(29, 29, 27);
+}
+.icon-Pilatex-01 .path2:before {
+  content: "\e933";
+  margin-left: -2.9990234375em;
+  color: rgb(29, 29, 27);
+}
+.icon-Pilatex-01 .path3:before {
+  content: "\e934";
+  margin-left: -2.9990234375em;
+  color: rgb(29, 29, 27);
+}
+.icon-Pilatex-01 .path4:before {
+  content: "\e935";
+  margin-left: -2.9990234375em;
+  color: rgb(29, 29, 27);
+}
+.icon-Pilatex-01 .path5:before {
+  content: "\e936";
+  margin-left: -2.9990234375em;
+  color: rgb(29, 29, 27);
+}
+.icon-Pilatex-01 .path6:before {
+  content: "\e937";
+  margin-left: -2.9990234375em;
+  color: rgb(29, 29, 27);
+}
+.icon-Pilatex-01 .path7:before {
+  content: "\e938";
+  margin-left: -2.9990234375em;
+  color: rgb(29, 29, 27);
+}
+.icon-Pilatex-01 .path8:before {
+  content: "\e939";
+  margin-left: -2.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.icon-Pilatex-01 .path9:before {
+  content: "\e93a";
+  margin-left: -2.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.icon-Pilatex-01 .path10:before {
+  content: "\e93b";
+  margin-left: -2.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.icon-Pilatex-01 .path11:before {
+  content: "\e93c";
+  margin-left: -2.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.icon-Pilatex-01 .path12:before {
+  content: "\e93d";
+  margin-left: -2.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.icon-Pilatex-01 .path13:before {
+  content: "\e93e";
+  margin-left: -2.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.icon-Pilatex-01 .path14:before {
+  content: "\e93f";
+  margin-left: -2.9990234375em;
+  color: rgb(0, 0, 0);
+}
 .icon-Tabata:before {
   content: "\e900";
 }
@@ -270,75 +339,6 @@
   content: "\e931";
   margin-left: -3.5654296875em;
   color: rgb(245, 51, 63);
-}
-.icon-Pilatex-01 .path1:before {
-  content: "\e932";
-  color: rgb(255, 255, 255);
-}
-.icon-Pilatex-01 .path2:before {
-  content: "\e933";
-  margin-left: -2.9990234375em;
-  color: rgb(255, 255, 255);
-}
-.icon-Pilatex-01 .path3:before {
-  content: "\e934";
-  margin-left: -2.9990234375em;
-  color: rgb(255, 255, 255);
-}
-.icon-Pilatex-01 .path4:before {
-  content: "\e935";
-  margin-left: -2.9990234375em;
-  color: rgb(255, 255, 255);
-}
-.icon-Pilatex-01 .path5:before {
-  content: "\e936";
-  margin-left: -2.9990234375em;
-  color: rgb(255, 255, 255);
-}
-.icon-Pilatex-01 .path6:before {
-  content: "\e937";
-  margin-left: -2.9990234375em;
-  color: rgb(255, 255, 255);
-}
-.icon-Pilatex-01 .path7:before {
-  content: "\e938";
-  margin-left: -2.9990234375em;
-  color: rgb(255, 255, 255);
-}
-.icon-Pilatex-01 .path8:before {
-  content: "\e939";
-  margin-left: -2.9990234375em;
-  color: rgb(0, 0, 0);
-}
-.icon-Pilatex-01 .path9:before {
-  content: "\e93a";
-  margin-left: -2.9990234375em;
-  color: rgb(0, 0, 0);
-}
-.icon-Pilatex-01 .path10:before {
-  content: "\e93b";
-  margin-left: -2.9990234375em;
-  color: rgb(0, 0, 0);
-}
-.icon-Pilatex-01 .path11:before {
-  content: "\e93c";
-  margin-left: -2.9990234375em;
-  color: rgb(0, 0, 0);
-}
-.icon-Pilatex-01 .path12:before {
-  content: "\e93d";
-  margin-left: -2.9990234375em;
-  color: rgb(0, 0, 0);
-}
-.icon-Pilatex-01 .path13:before {
-  content: "\e93e";
-  margin-left: -2.9990234375em;
-  color: rgb(0, 0, 0);
-}
-.icon-Pilatex-01 .path14:before {
-  content: "\e93f";
-  margin-left: -2.9990234375em;
-  color: rgb(0, 0, 0);
 }
 .icon-LatinMix-01 .path1:before {
   content: "\e940";
