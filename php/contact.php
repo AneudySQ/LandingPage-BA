@@ -30,6 +30,11 @@ if(trim($tel) == '') {
 	exit();
 }
 
+if(get_magic_quotes_gpc()) {
+	$tel = stripslashes($tel);
+}
+
+
 if(trim($comments) == '') {
 	echo '<div class="error_message">Por favor ingrese su mensaje.</div>';
 	exit();
