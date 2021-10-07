@@ -67,8 +67,7 @@ $e_subject = 'Ha sido contactado por ' . $name . '.';
 
 $e_body = "Ha sido contactado por $name. El mensaje es el siguiente" . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
-$e_reply = "Puedes contactar $name via email, $email";
-$e_reply = "teléfono, $tel";
+$e_reply = "Puedes contactar $name via email, $email telefono $tel";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
