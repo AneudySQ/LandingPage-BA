@@ -29,7 +29,6 @@ if(trim($tel) == '') {
 	echo '<div class="error_message">Por favor ingrese su teléfono.</div>';
 	exit();
 }
-
 if(get_magic_quotes_gpc()) {
 	$tel = stripslashes($tel);
 }
