@@ -10,11 +10,12 @@ function isEmail($email) {
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
+$tel    = $_POST['email'];
 $email    = $_POST['email'];
 $comments = $_POST['comments'];
 
 if(trim($name) == '') {
-	echo '<div class="error_message">Debes ingresar tu nombre.</div>';
+	echo '<div class="error_message">Debes ingresar tu nombre y apellido.</div>';
 	exit();
 } else if(trim($email) == '') {
 	echo '<div class="error_message">Por favor, introduce una dirección de correo electrónico válida.</div>';
@@ -26,6 +27,10 @@ if(trim($name) == '') {
 
 if(trim($comments) == '') {
 	echo '<div class="error_message">Por favor ingrese su mensaje.</div>';
+	exit();
+}
+if(trim($tel) == '') {
+	echo '<div class="error_message">Por favor ingrese su teléfono.</div>';
 	exit();
 }
 
