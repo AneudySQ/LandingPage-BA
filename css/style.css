@@ -119,7 +119,6 @@ background-color: #3FA3C2;
 }
 
 thead{
-  background-color: #D1CFCF;
   text-transform:uppercase;
 }
 .color-cabecera{
@@ -132,12 +131,10 @@ thead{
 tbody{
   color: #FFFFFF;
   text-align: center;
-  padding: auto;
 
 }
 
 th{
-  font-style:italic;
   text-align: center;
   font-size: 1.2em;
 
